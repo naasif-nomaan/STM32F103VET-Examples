@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections
+-I"F:\ARM Cortex\Udemy Mastering Microcontroller\projects\Interrupt\RTE"
+-I"F:\ARM Cortex\Udemy Mastering Microcontroller\projects\Interrupt\RTE\Device\STM32F103VE"
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_HD
+-o .\objects\gpio_config.o --omf_browse .\objects\gpio_config.crf --depend .\objects\gpio_config.d "GPIO_Config.c"
