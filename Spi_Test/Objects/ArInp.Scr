@@ -1,0 +1,5 @@
+--create .\Objects\SPI_test.lib
+.\objects\main.o
+.\objects\delay.o
+.\objects\gpio_config.o
+.\objects\spi.o
